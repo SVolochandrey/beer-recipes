@@ -1,26 +1,3 @@
-// import { Route, Routes } from "react-router-dom";
-
-// import RecipeList from "../components/RecipeList";
-// import RecipeDetails from "../components/RecipeDetails";
-// import Header from "./Header";
-
-// import "./App.css";
-
-// const App = () => {
-//   return (
-//     <div className="app">
-//       <Header />
-//       <RecipeList />
-//       <Routes>
-//         <Route path="/recipes/:id" exact element={<RecipeDetails />} />
-//       </Routes>
-//     </div>
-//   );
-// };
-
-// export default App;
-
-// App.js
 import React, { useEffect, useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import getRecipes from "../API";
